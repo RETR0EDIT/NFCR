@@ -470,15 +470,6 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
                 children: [
                   Icon(Icons.info_outline, color: Colors.blue.shade700),
                   const SizedBox(width: 12),
-                  Expanded(
-                    child: Text(
-                      'Appuyez sur "Utiliser cette carte" pour simuler son utilisation. L\'émulation HCE nécessite des capacités spéciales qui ne sont pas disponibles sur tous les appareils.',
-                      style: TextStyle(
-                        color: Colors.blue.shade700,
-                        fontSize: 13,
-                      ),
-                    ),
-                  ),
                 ],
               ),
             ),
