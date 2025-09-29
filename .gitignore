@@ -1,0 +1,87 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Pub
+pubspec.lock
+
+# Generated docs
+**/doc/api/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/engine
+ios/Flutter/Generated.xcconfig
+ios/Flutter/.last_build_id
+Pods/
+Runner.xcworkspace/
+.symlinks/
+Podfile.lock
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/
+*.moved-aside
+DerivedData/
+
+# Android
+/android/.gradle/
+/android/captures/
+/android/app/**/outputs/
+/android/app/debug
+/android/app/profile
+/android/app/release
+local.properties
+
+# Keystore files (do not commit)
+*.jks
+*.keystore
+key.properties
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Linux
+linux/flutter/ephemeral/
+
+# macOS
+macos/Flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Web
+/web/**/main.dart.js
+/web/**/main.dart.js.map
+
+# Firebase (if used)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Sensitive files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Other
+coverage/
+test-outputs/
+reports/
+
+# Ignore generated plugin registrant for platforms
+**/GeneratedPluginRegistrant.*

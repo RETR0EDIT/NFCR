@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFCR</string>
+    <string name="hce_service_description">Service d\'émulation de cartes NFC pour NFCR</string>
+    <string name="hce_aid_group">Émulation de cartes NFC</string>
+</resources>
